@@ -2,7 +2,10 @@
 URL reels scrapper
 
 ## ¿Qué hace?
-Este script permite extraer las direcciones URL de cualquier perfil de instagram, al final de procesamiento, genera un archivo TXT con todas las URL encontradas
+Este script permite extraer las direcciones URL de cualquier perfil de instagram, al final del procesamiento, genera un archivo TXT con todas las URL encontradas.
+
+## ¿Para qué?
+Este script surge como un complemento para 'gallery-dl' el cual es un gestor de descargar por lote para instagram. 'gallery-dl' solo toma en cuenta los links de la página principal del usuario, pero no lee los links de la sección de reels, entonces si un usuario no ha publicado en el feed principal sus reels, gallery-dl no va a tomar en cuenta estas URL. Con este script se generan todas las URL de la sección reels, para posteriormente con gallery-dl, importar esta lista y descargar el contenido.
 
 ## Tutorial de uso
 1. Accede al perfil del usuario en su sección de reels 'https://www.instagram.com/{USER}/reels/'
