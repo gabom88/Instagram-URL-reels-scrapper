@@ -12,7 +12,7 @@ Este script surge como un complemento para 'gallery-dl' el cual es un gestor de 
 2. En tu navegador web (Chrome/Edge) presiona F12 y en entra en CONSOLE
 3. Copia y pega el siguiente script. Al terminar, el script genera un archivo TXT con todas las URL encontradas
 
-### COPY AND PASTE into de web Console:
+### COPY AND PASTE into the web Console:
 ```
 (async () => {
     const reels = new Set();
